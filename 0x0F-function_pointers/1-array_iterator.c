@@ -8,7 +8,6 @@
  * @size: size of the array
  * @action: pointer to function used
  */
-
 void array_interator(int *array, size_t size, void (*action)(int))
 {
 	unsigned int i;
