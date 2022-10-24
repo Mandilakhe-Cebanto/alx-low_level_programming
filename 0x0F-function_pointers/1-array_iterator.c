@@ -6,7 +6,7 @@
  * on each element of an array
  * @array: array to interate over
  * @size: size of the array
- * action: pointer to function used
+ * @action: pointer to function used
  */
 
 void array_interator(int *array, size_t size, void (*action)(int))
